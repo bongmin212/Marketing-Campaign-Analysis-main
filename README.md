@@ -33,18 +33,18 @@ Trước khi tiến hành phân tích, tập dữ liệu đã trải qua kiểm 
 # Phân tích Chuyên sâu
 ## Phân tích Nhấp chuột vào Quảng cáo:
 Tất cả các biểu đồ liên quan đến nhấp chuột và chuyển đổi cho thấy sự phân bố tương đối đối xứng, chỉ ra sự phân bổ tương đối đồng đều của các chỉ số này.
-![fb ad conversions](https://github.com/bongmin212/Marketing-Campaign-Analysis/blob/main/images/fb%20ad%20conversions.png)
-![ad words ad conversions](https://github.com/bongmin212/Marketing-Campaign-Analysis/blob/main/images/adwords%20ad%20conversions.png)
+![fb ad conversions](https://github.com/bongmin212/Marketing-Campaign-Analysis-main/blob/main/images/fb%20ad%20conversions.png)
+![ad words ad conversions](https://github.com/bongmin212/Marketing-Campaign-Analysis-main/blob/main/images/adwords%20ad%20conversions.png)
 
 ## Tỷ lệ Chuyển đổi:
 - **Facebook:** Quan sát thấy các ngày có chuyển đổi cao diễn ra thường xuyên hơn so với AdWords, nền tảng thường có xu hướng ở mức chuyển đổi thấp hoặc trung bình.
 - **AdWords:** Không có chuyển đổi nào được quan sát thấy trong phạm vi 10-15, cho thấy cần phải xem xét lại các chiến lược.
-![conversion rates](https://github.com/bongmin212/Marketing-Campaign-Analysis/blob/main/images/daily%20conversions%20by%20categories.png)
+![conversion rates](https://github.com/bongmin212/Marketing-Campaign-Analysis-main/blob/main/images/daily%20conversions%20by%20categories.png)
 
 ## Hiệu quả Chi phí:
 Mối tương quan dương mạnh (0,87) giữa các lượt nhấp vào quảng cáo Facebook và doanh số bán hàng, cho thấy quảng cáo Facebook rất hiệu quả trong việc thúc đẩy doanh số.
 Quảng cáo AdWords cũng tương quan tích cực với doanh số, nhưng với hệ số ở mức vừa phải (0,45), cho thấy các yếu tố khác ảnh hưởng đến hiệu quả của chúng.
-![clicks_conversions](https://github.com/bongmin212/Marketing-Campaign-Analysis/blob/main/images/clicks_conv.png)
+![clicks_conversions](https://github.com/bongmin212/Marketing-Campaign-Analysis-main/blob/main/images/clicks_conv.png)
 
 ## Kiểm định Giả thuyết:
 _Giả thuyết: Quảng cáo trên Facebook sẽ dẫn đến số lượng chuyển đổi lớn hơn so với AdWords._
@@ -56,18 +56,18 @@ _Giả thuyết: Quảng cáo trên Facebook sẽ dẫn đến số lượng chu
 ## Mô hình Dự báo:
 Mô hình hồi quy tuyến tính cho thấy nhấp chuột vào quảng cáo Facebook giải thích được 76,35% sự thay đổi trong các chuyển đổi. Khả năng dự báo này giúp ích trong việc lập kế hoạch và tối ưu hóa các chiến dịch trong tương lai.
 
-![fb regression](https://github.com/bongmin212/Marketing-Campaign-Analysis/blob/main/images/fb%20regression.png)
+![fb regression](https://github.com/bongmin212/Marketing-Campaign-Analysis-main/blob/main/images/fb%20regression.png)
 
 ## Xu hướng (Tỷ lệ Nhấp CTR và Tỷ lệ Chuyển đổi):
 - **Hiệu suất Theo Ngày trong Tuần:** Chuyển đổi có tính chất nhất quán, nhưng Thứ Hai và Thứ Ba có tỷ lệ chuyển đổi cao hơn, thể hiện sự tương tác với người dùng ở đầu tuần tăng cao.
   
-    ![fb weekday](https://github.com/bongmin212/Marketing-Campaign-Analysis/blob/main/images/fb%20weekly%20conversion.png)
+    ![fb weekday](https://github.com/bongmin212/Marketing-Campaign-Analysis-main/blob/main/images/fb%20weekly%20conversion.png)
 - **Xu hướng Chuyển đổi Theo Tháng:** Sự biến động về tỷ lệ chuyển đổi được ghi nhận trong các tháng 2, 4, 5, 6, 8 và 11, có thể do xu hướng theo mùa hoặc thay đổi chiến lược tiếp thị.
   
-    ![fb monthly](https://github.com/bongmin212/Marketing-Campaign-Analysis/blob/main/images/fb%20monthly%20conversion.png)
+    ![fb monthly](https://github.com/bongmin212/Marketing-Campaign-Analysis-main/blob/main/images/fb%20monthly%20conversion.png)
 - **Xu hướng CPC:** Tháng 5 và tháng 11 có giá trị CPC thấp hơn, biểu thị đây là các giai đoạn hiệu quả quảng cáo cao hơn, trong khi tháng 2 chứng kiến CPC cao hơn.
   
-    ![fb monthly cpc](https://github.com/bongmin212/Marketing-Campaign-Analysis/blob/main/images/fb%20monthly%20cpc.png)
+    ![fb monthly cpc](https://github.com/bongmin212/Marketing-Campaign-Analysis-main/blob/main/images/fb%20monthly%20cpc.png)
 
 # Các Khuyến nghị
 Dựa vào những phát hiện từ phân tích này, chúng tôi đưa ra những khuyến nghị sau cho các chiến dịch quảng cáo trong tương lai:
